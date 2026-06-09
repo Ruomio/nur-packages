@@ -8,7 +8,7 @@ pkgs.stdenv.mkDerivation rec {
     owner = "Ruomio";
     repo = "font";
     rev = "main"; # 或者固定一个 commit
-    sha256 = "0kfjlnmhn868ar92f5vwxzzh3yji5h727y72wndrq1vdg04fdasj"; # 第一次跑会提示你填正确 hash
+    sha256 = "sha256-TbkfnjGazEciR1KxdtSHtKFTTbcQ3uXy9dFMSu1G+BQ=";
   };
 
   buildPhase = ''
